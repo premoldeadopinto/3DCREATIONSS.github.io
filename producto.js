@@ -9,7 +9,7 @@ const productos = {
         nombre: "Medalla de Identificación Hueso",
         precio: "$3000",
         descripcion: "Descripción del producto 2.",
-        imagenes: ["image/475072694_1611450672811947_37901.webp", "image/474615349_1758142244961625_46896.webp", "image/imagen6.jpg"]
+        imagenes: ["image/475072694_1611450672811947_37901.webp", "image/474615349_1758142244961625_46896.webp"]
     },
     producto3: {
         nombre: "Estatua de Anubis",
