@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D CREATIONS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="image/DALL·E 2025-01-03 09.20.20 - A modern and sleek logo design for a 3D printed goods business. The logo features a stylized 3D printer creating a vibrant, geometric object with a ra.jpg" alt="Logo de la tienda">
+            <span class="logo-text">3D CREATIONS</span>
+        </div>
+        <button class="menu-toggle">☰</button>
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#productos"><i class="fas fa-box"></i> Productos</a></li>
+                <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-image">
+        <img src="image/file-UNyhrmd74rszFEJRS6kvpX.jpg" alt="Innovating the Future with 3D Printing">
+    </div>
+
+    <main id="productos">
+        <h2>Nuestros Productos</h2>
+        <div  class="productos">
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto1'">
+                <img src="image/475860475_2075545712950612_55661.webp" alt="Producto 1">
+                <h3>Calendario giratorio Magnético</h3>
+                <p>$10000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto2'">
+                <img src="image/475072694_1611450672811947_37901.webp" alt="Producto 2">
+                <h3>Medalla de Identificación Hueso</h3>
+                <p>$3000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto3'">
+                <img src="image/472392632_3972587112985625_57081.webp" alt="Producto 3">
+                <h3>Estatua de Anubis</h3>
+                <p>$6000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto4'">
+                <img src="image/472448700_1102152928368207_10362.webp" alt="Producto 4">
+                <h3>Escultura de Iron Man</h3>
+                <p>$15000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto5'">
+                <img src="image/472453168_563863513215406_662358.webp" alt="Producto 5">
+                <h3>Torre Eiffel</h3>
+                <p>$15000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto6'">
+                <img src="image/474263202_589109377237720_895656.webp" alt="Producto 6">
+                <h3>Numeros Magneticos </h3>
+                <p>$4000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto7'">
+                <img src="image/2025-01-31_80c0158c52eae.webp" alt="Producto 7">
+                <h3>Soporte con movimiento para teléfono</h3>
+                <p>$6000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto8'">
+                <img src="image/469817814_1109157817073535_80018.webp" alt="Producto 8">
+                <h3>Soporte Para Celular</h3>
+                <p>$3000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto9'">
+                <img src="image/472697562_1327254248696706_57667.webp" alt="Producto 9">
+                <h3>Lamparas Colgantes </h3>
+                <p>$25000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto10'">
+                <img src="image/473204602_1329416414661436_47381.webp" alt="Producto 10">
+                <h3>Pastor alemán</h3>
+                <p>$12000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto11'">
+                <img src="image/472696937_465494709939443_690864.webp" alt="Producto 11">
+                <h3>Leon</h3>
+                <p>$15000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto12'">
+                <img src="image/473201924_1279609073270356_84244.webp" alt="Producto 12">
+                <h3>Letras Plásticas</h3>
+                <p>$5000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto13'">
+                <img src="image/472563603_1110089870857993_72528.webp" alt="Producto 13">
+                <h3>Torso de Spiderman</h3>
+                <p>$10000</p>
+            </div>
+            <div class="producto" onclick="window.location.href='producto.html?producto=producto14'">
+                <img src="image/470472730_1119989306249937_12997.webp" alt="Producto 14">
+                <h3>Cartel Domicilio de Casa con Número. Personalizable</h3>
+                <p>$4000</p>
+            </div>
+          
+            
+            <!-- Más productos -->
+        </div>
+
+ 
+
+        <div class="paginacion">
+            <button class="prev">Anterior</button>
+            <div class="page-numbers"></div>
+            <button class="next">Siguiente</button>
+        </div>
+    </main>
+
+    <section id="contacto" class="contacto">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.82097537741205!2d-68.80445110639049!3d-32.92782070383599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0d7c938d696b%3A0x270c9a4de0237555!2sPremoldeado%20Pinto!5e0!3m2!1ses-419!2sar!4v1739373540022!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info-contacto">
+            <div class="columna">
+                <h3>Seguinos</h3>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="columna">
+                <h3>Horarios</h3>
+                <p>Lunes a Sábados<br>08:00 - 18:00</p>
+            </div>
+            <div class="columna">
+                <h3>Encontranos</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 9 de julio 99, Godoy Cruz, Mendoza</p>
+                <p><i class="fas fa-phone"></i> (+54) 2613648992</p>
+                <p><i class="fas fa-envelope"></i> jorgepintosoft@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/5492613648992" target="_blank" class="whatsapp-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 40px; height: 40px;">
+    </a>
+
+</body>
+</html>
