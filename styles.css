@@ -395,6 +395,7 @@ h2 {
     .detalle-contenido {
         flex-direction: column;
         align-items: center;
+       
     }
 
     .imagenes, .detalles {
@@ -425,3 +426,17 @@ h2 {
     width: 30px; /* Ajusta el tamaño del icono */
     height: 30px; /* Ajusta el tamaño del icono */
 } 
+
+/*esto es para dividir mejor la parte de contactos*/
+.info-contacto {
+    display: flex; /* Utiliza flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    max-width: 100%; /* Limita el ancho al 100% del contenedor */
+    overflow: hidden; /* Evita que el contenido se desborde */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+.columna {
+    flex: 1 1 30%; /* Permite que las columnas se ajusten y ocupen espacio */
+    word-wrap: break-word; /* Permite que las palabras largas se dividan */
+    margin: 10px; /* Espacio entre columnas */
+}
