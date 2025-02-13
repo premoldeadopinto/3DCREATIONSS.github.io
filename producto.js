@@ -20,7 +20,7 @@ const productos = {
     ,
     producto4: {
         nombre: "Escultura de Iron Man",
-        precio: "$15000",
+        precio: "$20000",
         descripcion: "¡Lleva el poder de Tony Stark a tu hogar! Esta increíble escultura de Iron Man de 36 cm de alto captura al Vengador en una pose épica, listo para la acción. Con detalles realistas y un acabado brillante que recuerda a su icónica armadura, esta pieza es un imprescindible para los fanáticos de Marvel. Perfecta para exhibir en estanterías, escritorios o colecciones de superhéroes. ¡Añade un toque de heroísmo a tu espacio con esta espectacular figura de Iron Man!",
         imagenes: ["image/472448700_1102152928368207_10362.webp", "image/472452824_1329014384940113_81650.webp", "image/472514763_967355178580710_854191.webp", "image/472582698_1526429311409421_15718.webp"]
     }
