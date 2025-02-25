@@ -90,9 +90,9 @@ const productos = {
     ,
     producto14: {
         nombre: "Cartel Domicilio de Casa con Número. Personalizable",
-        precio: "$4000",
+        precio: "$10000",
         descripcion: "Haz que tu hogar se distinga con estilo y practicidad. Este cartel de domicilio personalizable permite agregar el número de tu casa de manera clara y elegante.",
-        imagenes: ["image/470472730_1119989306249937_12997.webp"]
+        imagenes: ["image/muestra.webp", "image/muestra3.webp", "image/470472730_1119989306249937_12997.webp", "image/WhatsApp-Image-2025-02-23-at-11.59.23_1.webp"]
     },
     producto15: {
         nombre: "Organizador De Cable para Celular",
@@ -112,6 +112,14 @@ const productos = {
         descripcion: "Filtro antipolvo para PC está diseñado para mantener tu hardware limpio y libre de polvo. Con un tamaño compacto de 11,9 x 11,9 cm, es ideal para ventiladores estándar",
         imagenes: ["image/WhatsApp Image 2025-02-12 at 14.38.15-Photoroom.webp"]
     }
+    ,
+    producto18: {
+        nombre: "Buho",
+        precio: "$18000",
+        descripcion: "Añade un toque de encanto y misterio a tu hogar u oficina con este hermoso búho decorativo de plástico. Diseñado con detalles realistas y un acabado de alta calidad, este búho es perfecto para estanterías, escritorios, jardines o cualquier rincón que necesite un toque especial.",
+        imagenes: ["image/475533589_2733960570110090_29125.webp"]
+    }
+   
     // Más productos
 };
 
