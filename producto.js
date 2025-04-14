@@ -118,6 +118,13 @@ const productos = {
         precio: "$18000",
         descripcion: "Añade un toque de encanto y misterio a tu hogar u oficina con este hermoso búho decorativo de plástico. Diseñado con detalles realistas y un acabado de alta calidad, este búho es perfecto para estanterías, escritorios, jardines o cualquier rincón que necesite un toque especial.",
         imagenes: ["image/475533589_2733960570110090_29125.webp"]
+    },
+
+    producto19: {
+        nombre: "Portavasos y botella para Bicicleta",
+        precio: "$10000",
+        descripcion: "Soporte resistente para botella y portavasos, ideal para llevar tu bebida en bici de forma cómoda y segura.",
+        imagenes: ["image/portavasos3.webp","image/portavasos2.webp","image/portavasos1.webp"]
     }
    
     // Más productos

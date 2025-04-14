@@ -50,6 +50,9 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 60px; /* Aumenta el espacio entre el producto y la sección de contacto */
+    padding: 20px 20px 20px 20px; /* Padding: arriba, derecha, abajo, izquierda */
+    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
     
 }
 
