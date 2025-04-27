@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.querySelector(".menu-toggle");
     const navMenu = document.querySelector("nav ul");
     const productos = document.querySelectorAll(".producto");
     const prevButton = document.querySelector(".prev");
@@ -53,9 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    menuToggle.addEventListener("click", function () {
-        navMenu.classList.toggle("show");
-    });
 
     mostrarPagina(paginaActual);
 
