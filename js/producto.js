@@ -6,7 +6,7 @@ const productos = {
          imagenes: ["image/475860475_2075545712950612_55661.webp", "image/476168641_418766061257093_442519.webp"]
     },
     producto2: {
-        nombre: "Medalla de Identificación para perro",
+        nombre: "Medalla de Identificación para mascotas",
         precio: "$3000",
         descripcion: "¡Mantén a tu mascota siempre identificada con estilo! Nuestras medallas de identificación para perros están fabricadas en plástico, perfectas para el uso diario sin incomodar a tu peludo amigo. Estas chapas son personalizables con el nombre de tu mascota y tu información de contacto, brindándote tranquilidad en caso de extravío. ",
         imagenes: ["image/475072694_1611450672811947_37901.webp", "image/474615349_1758142244961625_46896.webp", "image/WhatsApp Image 2025-02-12 at 14.38.17-Photoroom.webp"]
