@@ -13,7 +13,7 @@ const productos = {
     },
     producto3: {
         nombre: "Estatua de Anubis",
-        precio: "$6000",
+        precio: "$8000",
         descripcion: "Imponente y detallada, esta estatua de Anubis de 26 cm de alto captura la majestuosidad del dios egipcio de los muertos y guardián del más allá. Elaborada con precisión, muestra a Anubis con su icónica cabeza de chacal y su postura vigilante, transmitiendo poder y misterio. Ideal para decorar espacios con un toque místico y cultural, esta pieza no solo es un símbolo de protección, sino también un recordatorio de la rica historia del antiguo Egipto. Perfecta para coleccionistas o amantes de la mitología egipcia.",
         imagenes: ["image/472392632_3972587112985625_57081.webp", "image/472536304_572790652290402_679483.webp", "image/472536304_1090685259507420_59467.webp"]
     }
@@ -48,7 +48,7 @@ const productos = {
     ,
     producto8: {
         nombre: "Soporte Para Celular",
-        precio: "$3000",
+        precio: "$4000",
         descripcion: "¡Mantén tu dispositivo seguro y siempre a la vista! Este soporte fijo para celular ofrece una base estable y diseño compacto, perfecto para ver videos, realizar videollamadas o simplemente mantener tu escritorio organizado.",
         imagenes: ["image/469817814_1109157817073535_80018.webp", "image/472667301_598289746257746_513625.webp", "image/472806684_9089721187751157_59662.webp"]
     }
@@ -126,7 +126,13 @@ const productos = {
         descripcion: "Soporte resistente para botella y portavasos, ideal para llevar tu bebida en bici de forma cómoda y segura.",
         imagenes: ["image/portavasos3.webp","image/portavasos2.webp","image/portavasos1.webp"]
     }
-   
+   ,
+    producto20: {
+        nombre: "Perchero para Llaves",
+        precio: "$8000",
+        descripcion: "Perchero de plástico con forma de gatitos para colgar llaves.",
+        imagenes: ["image/D_NQ_NP_2X_923362-MLA85082918641.webp"]
+    }
     // Más productos
 };
 
